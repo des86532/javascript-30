@@ -36,7 +36,7 @@
 透過`some()`會將Array中的資料逐筆進行判斷，只要有一筆通過判斷則回傳`true`並結束。
 >參閱：[MDN-Array.prototype.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
-### **2. every() **
+###   2. every() 
 題目：people是否每個人都19歲以上？  
 解答：
 ````javascript
@@ -50,7 +50,7 @@
 與`some()`是相反操作的感覺。
 >參閱：[MDN-Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
-### **３. find() **
+### 3. find()
 題目：在comments中找到id是823423的資料  
 解答：
 ````javascript
