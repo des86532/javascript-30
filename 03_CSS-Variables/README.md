@@ -1,8 +1,10 @@
 # 03 - CSS Variable
 
-## 實現效果
+## 主題
 
 用 JavaScript 和 CSS 讓可以即時調整畫面，模糊、放大、調色。
+
+>Demo: [CSS Variable](https://neilworlds.com/javascript-30/03_CSS-Variables/index.html)
 
 ## 步驟
 
