@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+  </form>
+<script>
+
+const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+const cities = []
+
+//fetch透過 url 會回傳一個包含 response 的 promise,回傳的 response 需要透過 json()
+fetch(endpoint)
+  .then(res => res.json())
+  .then(data => cities.push(...data))  //json()後可對資料再作處理
+
+
+function findMatch(word, cities) {
+  return cities.filter(place => {
+    const regexp = new RegExp(word, 'gi');
+    return place.city.match(regexp) || place.state.match(regexp) 
+  })
+}
+
+//array 才可以用join()  直接插入html語法 
+function displayMatch() {
+  const matchinput = findMatch(this.value,cities)
+  const html = []
+  const regex = new RegExp(this.value, 'gi');
+  const result = []
+  for(let i=0; i<matchinput.length; i++) {
+    html.push(
+      `<li>
+      <span class="name">${matchinput[i].city}, ${matchinput[i].state}</span>
+      <span class="population">${matchinput[i].population}</span>
+      </li>`
+      )
+//replace 要用正規表達式,否則只會取代第一個
+    const change = html[i].replace(regex,`<span class="hl">${this.value}</span>`)
+    result.push(change)
+  }
+//join 要用 array
+  suggestions.innerHTML = result.join('')
+}
+
+
+
+
+const searchbar = document.querySelector('.search')
+
+const suggestions = document.querySelector('.suggestions')
+
+searchbar.addEventListener('change',displayMatch)
+searchbar.addEventListener('keyup',displayMatch)
+
+
+
+
+
+</script>
+  </body>
+</html>
