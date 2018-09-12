@@ -3,6 +3,8 @@
 ## **主題**
 作者用了8個範例來介紹關於Array的各種操作。  
 
+>Demo: [Array Cardio Day 1](file:///D:/javascript-30/04_Array-Cardio-Day-1/index-FINISHED.html)
+
 ## **步驟**
 #### 練習範例內有提供了3組資料：
 1. inventors：first(名)、last(姓) 、year(出生日期)、passed(逝世日期)
