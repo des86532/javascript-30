@@ -3,6 +3,8 @@
 ## **主題**
 利用`fetch()`來取回json檔案，並透過`filter()`及`RegExp()`等語法來製作搜尋即時顯示關聯效果！  
  
+>Demo: [Type Ahead](https://neilworlds.com/javascript-30/06_Type-Ahead/index.html)
+ 
 ## **步驟**
 #### Step1
 預設已經有建立了一個城市的.json清單，  
