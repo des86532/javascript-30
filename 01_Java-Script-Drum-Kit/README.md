@@ -32,11 +32,12 @@
 EvenTarget常見有document、Element、window
 Document 介面代表所有在瀏覽器中載入的網頁，也是作為網頁內容 DOM 樹（包含如 {{HTMLElement("body")}}、{{HTMLElement("table")}} 與其它的{{domxref("Element", "元素")}}）的進入點
 
-![image](https://github.com/des86532/javascript-30/blob/master/drum%20kit/image/Using_the_W3C_DOM_Level_1_Core-doctree.jpg)
+![image](https://github.com/des86532/javascript-30/blob/master/01_Java-Script-Drum-Kit/image/Using_the_W3C_DOM_Level_1_Core-doctree.jpg)
 window 物件代表了一個包含 DOM 文件的視窗，其中的 document 屬性指向了視窗中載入的 Document 物件
 
-![image](https://github.com/des86532/javascript-30/blob/master/drum%20kit/image/TelSR.jpg)
-![image](https://github.com/des86532/javascript-30/blob/master/drum%20kit/image/BkAjU.jpg)
+![image](https://github.com/des86532/javascript-30/blob/master/01_Java-Script-Drum-Kit/image/TelSR.jpg)
+![image](https://github.com/des86532/javascript-30/blob/master/01_Java-Script-Drum-Kit/image/BkAjU.jpg)
+
 
 Element 介面表示了一個在 Document 中的物件，其描述了各類型元素的共同屬性與方法
 ![image](https://github.com/des86532/javascript-30/blob/master/drum%20kit/image/%E6%9C%AA%E5%91%BD%E5%90%8D.png)
