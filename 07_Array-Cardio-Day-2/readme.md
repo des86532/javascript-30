@@ -62,7 +62,7 @@
 若都沒有符合的值，將返回`undefined`。
 >參閱：[MDN-Array.prototype.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
-### **4. findIndex() & slice() & spared**
+### **4. findIndex() & slice() & spared & splice()**
 題目：在comments中找到id是823423的資料索引值, 並透過索引值刪除這筆資料  
 解答：
 ````javascript
