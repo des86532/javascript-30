@@ -37,10 +37,10 @@ window 物件代表了一個包含 DOM 文件的視窗，其中的 document 屬�
 
 ![image](https://github.com/des86532/javascript-30/blob/master/01_Java-Script-Drum-Kit/image/TelSR.jpg)
 ![image](https://github.com/des86532/javascript-30/blob/master/01_Java-Script-Drum-Kit/image/BkAjU.jpg)
-
+![image](https://github.com/des86532/javascript-30/blob/master/drum%20kit/image/未命名.png)
 
 Element 介面表示了一個在 Document 中的物件，其描述了各類型元素的共同屬性與方法
-![image](https://github.com/des86532/javascript-30/blob/master/drum%20kit/image/%E6%9C%AA%E5%91%BD%E5%90%8D.png)
+
 ### **符號**:
 ' 單引號  quote
 " 雙引號  double quote
