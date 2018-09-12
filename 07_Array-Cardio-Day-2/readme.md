@@ -3,7 +3,7 @@
 ## **主題**
 作者用了5個範例來介紹關於Array的各種操作。
 
->Demo: [Array Cardio](https://neilworlds.com/javascript-30/07_Array-Cardio-Day-2/index.html)  
+>Demo: [Array Cardio Day 2](https://neilworlds.com/javascript-30/07_Array-Cardio-Day-2/index.html)  
 
 ## **步驟**
 #### 練習範例內有提供了2組資料：
