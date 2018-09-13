@@ -5,6 +5,7 @@
 這篇就是介紹如何用JS來做這樣的小效果。
 
 >Demo: [Key Sequence Detection](https://neilworlds.com/javascript-30/12_Key-Sequence-Detection/index.html)
+>
 >code: neilworld
 ## **步驟**
 ### Step1. 設定目標
