@@ -4,6 +4,8 @@
 介紹如何使用Shift + 左鍵來完成連續區間選取，  
 在這篇的探索中，我增加了連續區間取消選取及部分問題的改善。
 
+>Demo: [Hold Shift and Check Checkboxes](https://neilworlds.com/javascript-30/10_Hold-Shift-and-Check-Checkboxes/index.html)
+
 ## **步驟**
 ### Step1. 基本設定
 用`querySelectorAll('input')`來把HTML中的inputs選起來，  
