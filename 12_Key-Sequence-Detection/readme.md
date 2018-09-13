@@ -4,6 +4,8 @@
 輸入特定的密碼，當你輸入完後會出現對應特效，  
 這篇就是介紹如何用JS來做這樣的小效果。
 
+>Demo: [Key Sequence Detection](https://neilworlds.com/javascript-30/12_Key-Sequence-Detection/index.html)
+
 ## **步驟**
 ### Step1. 設定目標
 在這個效果中，目的是在瀏覽器內容中透過鍵盤觸發對應的“密碼”後執行，  
