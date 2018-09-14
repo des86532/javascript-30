@@ -14,6 +14,7 @@ function strip(bandName) {
 }
 ```
 >參閱: [RegExp] (https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Regular_Expressions)
+
 >參閱: [RegExp_test] (https://regex101.com/)
 
 ### Step2. 對目標陣列進行篩選與排序
