@@ -1,5 +1,7 @@
 # 15 - LocalStorage
 
+>Demo: [LocalStorage](https://neilworlds.com/javascript-30/15_LocalStorage/index.html)
+
 ## **主題**
 這篇介紹LocalStorage的用法，  
 透過一個小菜單來透過localstorage做資料增刪功能。
