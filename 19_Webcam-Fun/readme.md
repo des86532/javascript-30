@@ -84,6 +84,7 @@ function takePhoto() {
 }
 ```
 >參閱：[MDN-HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLCanvasElement/toDataURL)
+
 >參閱：[MDN-Node.insert Before()](http://www.w3school.com.cn/jsref/met_node_insertbefore.asp)
 
 ### Step5. 濾鏡效果（紅色）
@@ -123,5 +124,7 @@ function redEffect(pixels) {
 }
 ```
 >參閱：[MDN-CanvasRenderingContext2D.getImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData)
+
 >參閱:[MDN-putImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData)
+
 >參閱：[W3school-getImageData](http://www.w3school.com.cn/html5/canvas_getimagedata.asp)
