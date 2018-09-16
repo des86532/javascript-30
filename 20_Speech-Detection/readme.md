@@ -63,12 +63,15 @@ recognition.start();
 ```
 
 ## **JavaScript語法&備註**
-**appendChild**  //加入一個新的標籤
+
+**appendChild**  
+加入一個新的標籤
 
 ```
 let node  = document.createElement('p')
 let textnode = document.createTextNode('Water')
-node.appendChild(textnode)     //此時node已改變
+node.appendChild(textnode)     
+//此時node已改變
 document.getElementById('mylist').appendChild(node)
 //此時會創立一個新的<p>Water</p> 在class="mylist" 裡面
 ```
