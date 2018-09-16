@@ -4,6 +4,8 @@
 利用`SpeechRecognition`來做語音識別，  
 並透過`interimResults`來輸出識別的結果。
 
+>Demo: [Speech Detection](https://neilworlds.com/2018/09/17/%E3%80%90js30%E3%80%91day20_speech-detection/)
+
 ## **步驟**
 ### Step1. 啟動Local Server
 這個練習需要使用到local server，  
