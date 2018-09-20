@@ -3,6 +3,8 @@
 ## **主題**
 透過CSS的`position:fixed`與JavaScript的`classList`來製作網站常見的置頂選單。
 
+>Demo: [Sticky Nav](https://neilworlds.com/javascript-30/24_Sticky-Nav/index.html)
+
 ## **步驟**
 ### Step1. 取得頁面元素並偵測選單到頂部的高度
 ```javascript
