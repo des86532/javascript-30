@@ -3,6 +3,8 @@
 ## **主題**
 解析`addEventListener`中事件的捕捉、傳遞、氣泡與單次執行方法
 
+>Demo: [Event Capture, Propagation, Bubbling and Once](https://neilworlds.com/javascript-30/25_Event-Capture-Propagation-Bubbling-and-Once/index.html)
+
 ## **步驟**
 ### Step1. 建立事件模型與基本呼叫
 首先建立三層DIV作為稍後測試使用的模型，
