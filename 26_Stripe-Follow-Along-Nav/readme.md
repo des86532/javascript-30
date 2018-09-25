@@ -3,6 +3,8 @@
 ## **主題**
 製作一個隨著滑鼠移動展開的選單效果。
 
+>Demo: [Stripe Follow Along Nav](https://neilworlds.com/javascript-30/26_Stripe-Follow-Along-Nav/index.html)
+
 ## **步驟**
 ### Step1. 取得頁面元素與建立基本事件框架
 取得頁面元素並分析此次效果僅有兩個事件`mouseenter`與`mouseleave`，  
