@@ -3,6 +3,8 @@
 ## **主題**
 製作一個可控制影片速率的拉把。
 
+>Demo: [Video Speed Controller](https://neilworlds.com/javascript-30/28_Video-Speed-Controller/index.html)
+
 這個練習可以算是延續[「JS30紀錄＆心得」11 - Custom Video Player]
 主要是把原本`input range`改成`div`的滑鼠事件監聽。
 
@@ -39,6 +41,7 @@ function handleMove (e) {
 ```
 
 ```javascript
+//自己寫的版本
 function barchange(e) {
     //畫面最上方到滑鼠位置的距離 - 畫面最上方到bar的最上方 = 藍色的部分
     const height = e.y - speed.offsetTop
