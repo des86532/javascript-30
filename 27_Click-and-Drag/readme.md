@@ -3,6 +3,7 @@
 ## **主題**
 製作一個可拖曳移動的水平捲軸。
 
+>Demo: [Click and Drag](https://neilworlds.com/javascript-30/27_Click-and-Drag/index.html)
 
 ## **步驟**
 ### Step1. 取得頁面元素與設定初始變數
