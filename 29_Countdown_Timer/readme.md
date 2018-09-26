@@ -3,6 +3,7 @@
 ## **主題**
 製作一個倒數計時器。
 
+>Demo:[Countdown Timer](https://neilworlds.com/javascript-30/29_Countdown_Timer/index.html)
 
 ## **步驟**
 ### Step1. 取得頁面元素並替預設
@@ -112,4 +113,5 @@ let fn = function(){
 
 button.addEventListener('click', fn_arr);
 ```
->參閱:https://pjchender.blogspot.com/2017/01/es6-arrow-function.html
+>參閱:[箭頭函式與this
+](https://pjchender.blogspot.com/2017/01/es6-arrow-function.html)
