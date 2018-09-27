@@ -182,7 +182,7 @@ moles.forEach(mole => mole.addEventListener('click', bonk));
     }
   }
 ```
-###事件
+### 事件
 ```javascript
   // 點擊地鼠更新計分板
   // 有點到地鼠時，地鼠會馬上下降，並出現另一個新地鼠
