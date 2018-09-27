@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whack A Mole!</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Whack-a-mole! <span class="score">0</span></h1>
+  <h1><span class="time">30</span></h1>
+  <button class="start" onClick="startGame()">Start!</button>
+
+  <div class="game">
+    <div class="hole hole1">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole2">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole3">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole4">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+      <div class="mole"></div>
+    </div>
+  </div>
+
+<script>
+  const holes = document.querySelectorAll('.hole');
+  const scoreBoard = document.querySelector('.score');
+  const moles = document.querySelectorAll('.mole');
+
+  const time = document.querySelector('.time');
+  let tem;
+
+
+  //地鼠要隨機跑出來 -> 隨機時間
+  function randomtime(min,max) {
+    return min + Math.random() * (max - min)
+  }
+
+
+  // 隨機地鼠
+  function randomhole() {
+    let x = setInterval(molesup,randomtime(200,2000))
+    setTimeout(() => {
+        clearInterval(x)
+    },30000)
+  }
+
+
+  // 隨機地鼠上升
+  function molesup() {
+    const num = Math.floor(Math.random() * holes.length)
+    if(tem !== num) {
+      tem = num
+      holes[num].classList.add('up')
+      //setTimeout 時間到後自動執行，不會重複執行
+      //如果地鼠還在上升的狀態才執行，有可能因為點到地鼠的關係已經下降了
+      if(holes[num].classList.contains('up')) {
+        setTimeout(() => {holes[num].classList.remove('up')}, randomtime(500, 2000))
+      }
+    } else {
+      console.log('haha')
+      molesup()
+    }
+  }
+
+  // 點擊地鼠更新計分板
+  // 有點到地鼠時，地鼠會馬上下降，並出現另一個新地鼠
+  holes.forEach(hole => {
+      hole.addEventListener('click', () => {
+        if(hole.classList.contains('up')) {
+          scoreBoard.innerHTML = Number(scoreBoard.innerHTML) + 1
+          hole.classList.remove('up')
+          molesup()
+        }
+      })
+  })
+
+
+  //開始遊戲以及歸零記分板
+  function startGame() {
+      //清除所有setTimeout && setInterval
+      stopgame()
+      //記分板歸零
+      scoreBoard.innerHTML = Number(0)
+      //秒數初始化
+      time.innerHTML = 30
+      //地鼠全部下降
+      holes.forEach(hole => {
+        if(hole.classList.contains('up')) {
+            hole.classList.remove('up')
+        }
+      })
+      //開始倒數計時
+      let countdown = setInterval(() => {
+        time.innerHTML = time.innerHTML - 1
+        //當時間為0，停止倒數
+        if(time.innerHTML == 0) {
+          clearInterval(countdown)
+        }
+      },1000)
+
+      //開始遊戲
+      randomhole()
+  }
+
+  //清除所有setTimeout && setInterval
+  function stopgame() {
+    let highestIntervalId = setInterval(";");
+    for (let i = 0 ; i < highestIntervalId ; i++) {
+        clearInterval(i); 
+    }
+
+    let highestTimeoutId = setTimeout(";");
+    for (let i = 0 ; i < highestTimeoutId ; i++) {
+        clearTimeout(i); 
+    }
+  }
+
+</script>
+</body>
+</html>
