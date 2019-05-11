@@ -3,7 +3,7 @@
 ## **主題**
 利用`fetch()`來取回json檔案，並透過`filter()`及`RegExp()`等語法來製作搜尋即時顯示關聯效果！  
  
->Demo: [Type Ahead](https://neilworlds.com/javascript-30/06_Type-Ahead/index.html)
+>Demo: [Type Ahead](https://des86532.github.io/javascript-30/06_Type-Ahead/index.html)
  
 ## **步驟**
 #### Step1
