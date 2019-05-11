@@ -3,7 +3,7 @@
 ## **主題**
 JS30的最終篇啦！這次要來做一個打地鼠的小遊戲:D
 
->Demo: [Whack A Mole](https://neilworlds.com/javascript-30/30_Whack-A-Mole/index.html)
+>Demo: [Whack A Mole](https://des86532.github.io/javascript-30/30_Whack-A-Mole/index.html)
 
 ## **步驟**
 ### Step1. 取得頁面元素並設定預設變數
