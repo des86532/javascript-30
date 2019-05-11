@@ -5,7 +5,7 @@
 透過JS使鍵盤及滑鼠按下後播放出對應按鍵的聲音，並同時產生一個特效，  
 在按下其他鍵後會關閉該特效並於新按鍵中啟用。  
 
->Demo：[Drum Kit](https://neilworlds.com/javascript-30/01_Java-Script-Drum-Kit/index.html)
+>Demo：[Drum Kit](https://des86532.github.io/javascript-30/01_Java-Script-Drum-Kit/index.html)
 
 ## **步驟**
 #### Step1. 新增keydown listener
