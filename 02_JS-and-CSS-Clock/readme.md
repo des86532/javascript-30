@@ -3,7 +3,7 @@
 ## **主題**
 畫面上呈現一個時鐘  
 
->Demo : [JS + CSS Clock](https://neilworlds.com/javascript-30/02_JS-and-CSS-Clock/index.html)
+>Demo : [JS + CSS Clock](https://des86532.github.io/javascript-30/02_JS-and-CSS-Clock/index.html)
 
 ## **步驟**
 #### Step1. 新增變數
