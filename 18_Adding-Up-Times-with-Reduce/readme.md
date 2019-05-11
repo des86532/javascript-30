@@ -3,7 +3,7 @@
 ## **主題**
 利用`map()`與`reduce()`來取得播放清單的總秒數。  
 
->Demo: [Adding Up Times with Reduce](https://neilworlds.com/javascript-30/18_Adding-Up-Times-with-Reduce/index.html)
+>Demo: [Adding Up Times with Reduce](https://des86532.github.io/javascript-30/18_Adding-Up-Times-with-Reduce/index.html)
 
 ## **步驟**
 ### Step1. 取得全部的時間值
