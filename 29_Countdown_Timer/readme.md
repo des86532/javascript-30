@@ -3,7 +3,7 @@
 ## **主題**
 製作一個倒數計時器。
 
->Demo:[Countdown Timer](https://neilworlds.com/javascript-30/29_Countdown_Timer/index.html)
+>Demo:[Countdown Timer](https://des86532.github.io/javascript-30/29_Countdown_Timer/index.html)
 
 ## **步驟**
 ### Step1. 取得頁面元素並替預設
