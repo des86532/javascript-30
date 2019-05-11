@@ -1,6 +1,6 @@
 # 15 - LocalStorage
 
->Demo: [LocalStorage](https://neilworlds.com/javascript-30/15_LocalStorage/index.html)
+>Demo: [LocalStorage](https://des86532.github.io/javascript-30/15_LocalStorage/index.html)
 
 ## **主題**
 這篇介紹LocalStorage的用法，  
