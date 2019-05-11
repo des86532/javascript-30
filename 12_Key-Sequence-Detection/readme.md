@@ -4,7 +4,7 @@
 輸入特定的密碼，當你輸入完後會出現對應特效，  
 這篇就是介紹如何用JS來做這樣的小效果。
 
->Demo: [Key Sequence Detection](https://neilworlds.com/javascript-30/12_Key-Sequence-Detection/index.html)
+>Demo: [Key Sequence Detection](https://des86532.github.io/javascript-30/12_Key-Sequence-Detection/index.html)
 >
 >code: neilworld
 ## **步驟**
