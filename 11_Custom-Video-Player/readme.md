@@ -4,7 +4,7 @@
 介紹如何使用HTML5的video tag來完成各種播放器功能，  
 播放/暫停、快進/快退、音量控制、速率控制等...
 
->Demo: [Custom Video Player](https://neilworlds.com/javascript-30/11_Custom-Video-Player/index.html)
+>Demo: [Custom Video Player](https://des86532.github.io/javascript-30/11_Custom-Video-Player/index.html)
 
 ## **步驟**
 ### Step1. 基本設定
