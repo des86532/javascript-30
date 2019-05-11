@@ -4,7 +4,7 @@
 使用HTML5的Canvas來製作一個畫布，  
 透過滑鼠來繪製彩色粗細不一的線條～
 
->Demo: [HTML5-Canvas](https://neilworlds.com/javascript-30/08_Fun-with-HTML5-Canvas/index.html)
+>Demo: [HTML5-Canvas](https://des86532.github.io/javascript-30/08_Fun-with-HTML5-Canvas/index.html)
 
 ## **步驟**
 ### Step1
