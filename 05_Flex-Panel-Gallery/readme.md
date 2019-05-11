@@ -4,7 +4,7 @@
 
 點擊任一張圖片，使圖片放大，兩側文字向內滑入
 
->Demo: [Flex-Panel-Gallery](https://neilworlds.com/javascript-30/05_Flex-Panel-Gallery/index.html)
+>Demo: [Flex-Panel-Gallery](https://des86532.github.io/javascript-30/05_Flex-Panel-Gallery/index.html)
 
 ## 步驟
 
