@@ -3,7 +3,7 @@
 ## **主題**
 這篇介紹當滾動視窗到定點時動畫滑入圖片的效果，  
 
->Demo: [Slide in on Scroll](https://neilworlds.com/javascript-30/13_Slide-in-on-Scroll/index.html)
+>Demo: [Slide in on Scroll](https://des86532.github.io/javascript-30/13_Slide-in-on-Scroll/index.html)
 
 ## **步驟**
 ### Step1. 基礎設定
