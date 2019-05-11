@@ -3,7 +3,7 @@
 ## **主題**
 使用`SpeechSynthesisUtterance`及`speechSynthesis`來使文字轉語音。
 
->Demo: [Speech Synthesis](https://neilworlds.com/javascript-30/23_Speech-Synthesis/index.html)
+>Demo: [Speech Synthesis](https://des86532.github.io/javascript-30/23_Speech-Synthesis/index.html)
 
 上次有做過語音轉文字的練習  
 這次則是要使用文字轉語音，透過介面中的輸入欄位來轉語音播放，  
