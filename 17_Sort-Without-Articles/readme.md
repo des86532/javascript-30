@@ -3,7 +3,7 @@
 ## **主題**
 介紹如何將陣列在排除部分文字的情況下排序。
 
->Demo: [Sort Without Articles](https://neilworlds.com/javascript-30/17_Sort-Without-Articles/index.html)
+>Demo: [Sort Without Articles](https://des86532.github.io/javascript-30/17_Sort-Without-Articles/index.html)
 
 ## **步驟**
 ### Step1. 建立篩選的function
